@@ -1,7 +1,7 @@
 # Naming Options & Cultural Notes
 ### A discussion document for choosing the tool's name
 
-*Working title: `sankofa-fu` (placeholder). This document collects naming candidates — with origins, meanings, fit, and honest caveats — so the team can choose deliberately. Nothing here is decided.*
+*Working title: `sankofa-fú` (placeholder). This document collects naming candidates — with origins, meanings, fit, and honest caveats — so the team can choose deliberately. Nothing here is decided.*
 
 ---
 
