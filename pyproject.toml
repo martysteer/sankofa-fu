@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sankofa-fu"
+version = "0.1.0"
+description = "Catalogue-backed reconciliation of classmarks and shelfmarks"
+requires-python = ">=3.11"
+dependencies = ["rapidfuzz>=3.0", "pyyaml>=6.0"]
+
+[project.optional-dependencies]
+datasette = ["datasette>=0.64"]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "datasette>=0.64"]
+
+[project.scripts]
+sankofa-fu = "sankofa_fu.cli:main"
+
+[project.entry-points.datasette]
+sankofa_fu = "datasette_sankofa_fu"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sankofa_fu", "src/datasette_sankofa_fu"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
