@@ -1,0 +1,11 @@
+dirty,expected_id,mechanism,expect_match
+rm C/801/K/5,r1,formatting,rank1
+MS  012345,r5,formatting,rank1
+Ms. 12345,r5,formatting,rank1
+Egetron 3025,r7,typo,rank1
+EGERTN 3025,r7,typo,rank1
+MS I2345,r5,ocr-artifact,rank1
+RM c.502.p.1 (1),r3,distinct-item,rank1
+RM c.502.p.1 (11),r4,distinct-item,rank1
+MS 12345,r6,distinct-item,absent
+RM c.801.k.5,r2,distinct-item,absent
