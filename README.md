@@ -180,4 +180,4 @@ fixture to loosen.
 
 *Sankofa* — "go back and get it": return to the record you already hold.
 *Fú* (符) — a tally or matching token, split in two and rejoined to prove
-identity.
+identity.	
